@@ -1,0 +1,28 @@
+Swagger 3:
+The OpenAPI specification defines the industry-standard specification for designing REST APIs, 
+while Swagger provides a range of tools (Swagger Editor, Swagger UI, Swagger Codegen…) to support the development, testing, 
+and documentation of these APIs. So we can think about Swagger 3 as OpenAPI 3 specification implementation.
+---
+context-path can be set in application.properties or main()
+---
+SimpleMongoRepository:
+MongoRepository has a base implementation for MongoDB named SimpleMongoRepository class that provides many of ready-to-use methods.
+---
+Mongo db DRUD- update and delete without id. Or should I add id?
+
+
+https://cloud.mongodb.com/v2/65143980243a793ce2457cac#/clusters/detail/cluster-shah
+
+https://www.youtube.com/watch?v=kYiLzIiHVY8
+
+https://github.com/navinreddy20/SpringMongoDB/blob/main/pom.xml
+-----
+http://localhost:8080/swagger-ui/index.html
+http://localhost:8080/v3/api-docs
+http://localhost:8080/v3/api-docs.yaml
+
+imp
+https://github.com/bezkoder/spring-boot-swagger-3-example/blob/master/src/main/java/com/bezkoder/spring/swagger/service/TutorialService.java
+
+imp github
+https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github
